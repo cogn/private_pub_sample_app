@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require "daemons"
+require "daemons/rails/config"
+
+config = Daemons::Rails::Config.new("suppress", File.dirname(__FILE__) + "/../../")
+
+Daemons.run File.dirname(__FILE__) + "/suppress.rb", config.to_hash
+
+task1 = Daemons.call(:multiple => true) do
+    loop {
+          File.open("/tmp/daemon_test.log", "w") {|f| f.write(Time.now.to_s + "\n")}
+              sleep 5
+                }
+end

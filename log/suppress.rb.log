@@ -1,0 +1,311 @@
+# Logfile created on 2012-08-23 21:46:30 +0530 by logger.rb/31641
+I, [2012-08-23T21:46:30.770875 #4930]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2012-08-23T21:46:30.771071 #4930] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:70:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'
+I, [2012-08-23T21:46:30.771723 #4930]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2012-08-23T21:46:30.773449 #4930] ERROR -- : stream closed (IOError)
+
+E, [2012-08-23T21:46:30.773600 #4930] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2012-08-23T21:46:30.773698 #4930] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2012-08-23T21:46:30.774089 #4930] ERROR -- : exception reentered (fatal)
+
+E, [2012-08-23T21:46:30.785510 #4930] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:70:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'
+I, [2012-08-23T21:47:01.728285 #4946]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2012-08-23T21:47:01.728531 #4946] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:70:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'
+I, [2012-08-23T21:47:01.729727 #4946]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2012-08-23T21:47:01.731435 #4946] ERROR -- : stream closed (IOError)
+
+E, [2012-08-23T21:47:01.731583 #4946] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2012-08-23T21:47:01.731682 #4946] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2012-08-23T21:47:01.732070 #4946] ERROR -- : exception reentered (fatal)
+
+E, [2012-08-23T21:47:01.743368 #4946] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:70:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'
+I, [2012-08-23T21:48:44.967311 #4984]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2012-08-23T21:48:44.967560 #4984] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:83:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'
+I, [2012-08-23T21:48:44.968236 #4984]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2012-08-23T21:48:44.969952 #4984] ERROR -- : stream closed (IOError)
+
+E, [2012-08-23T21:48:44.970106 #4984] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2012-08-23T21:48:44.970205 #4984] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2012-08-23T21:48:44.970595 #4984] ERROR -- : exception reentered (fatal)
+
+E, [2012-08-23T21:48:44.982076 #4984] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:83:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'
+I, [2012-08-23T21:50:38.417470 #5033]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2012-08-23T21:50:38.417786 #5033] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:70:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'
+I, [2012-08-23T21:50:38.419355 #5033]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2012-08-23T21:50:38.421271 #5033] ERROR -- : stream closed (IOError)
+
+E, [2012-08-23T21:50:38.421432 #5033] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2012-08-23T21:50:38.421531 #5033] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2012-08-23T21:50:38.421944 #5033] ERROR -- : exception reentered (fatal)
+
+E, [2012-08-23T21:50:38.433640 #5033] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:70:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'
+I, [2012-08-23T21:54:59.564074 #5152]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2012-08-23T21:54:59.564326 #5152] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:70:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'
+I, [2012-08-23T21:54:59.565515 #5152]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2012-08-23T21:54:59.567335 #5152] ERROR -- : stream closed (IOError)
+
+E, [2012-08-23T21:54:59.567665 #5152] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2012-08-23T21:54:59.567784 #5152] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2012-08-23T21:54:59.568199 #5152] ERROR -- : exception reentered (fatal)
+
+E, [2012-08-23T21:54:59.580173 #5152] ERROR -- : You have already activated activesupport 3.2.0, but your Gemfile requires activesupport 3.1.0. Using bundle exec may solve this. (Gem::LoadError)
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:31:in `block in setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/runtime.rb:17:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler.rb:107:in `setup'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125@global/gems/bundler-1.1.5/lib/bundler/setup.rb:17:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/boot.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/application.rb:1:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/config/environment.rb:2:in `<top (required)>'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:55:in `require'
+/home/cognizant/Projects/example_faye/lib/daemons/suppress.rb:6:in `<top (required)>'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:202:in `start_load'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/application.rb:295:in `start'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/controller.rb:70:in `run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:145:in `block in run'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/daemons-1.1.4/lib/daemons.rb:144:in `run'
+lib/daemons/suppress_ctl:8:in `<main>'

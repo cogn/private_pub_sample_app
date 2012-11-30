@@ -1,0 +1,2986 @@
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (118.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (82.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-08-22 20:21:18 +0530
+Served asset /rails.png - 200 OK (15ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-22 20:23:25 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-22 20:23:25 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (9.3ms)
+Compiled application.css  (14ms)  (pid 6363)
+Compiled chats.css  (26ms)  (pid 6363)
+Compiled sessions.css  (2ms)  (pid 6363)
+Compiled application.js  (36ms)  (pid 6363)
+Compiled jquery.js  (16ms)  (pid 6363)
+Compiled jquery_ujs.js  (1ms)  (pid 6363)
+Compiled chats.js  (122ms)  (pid 6363)
+Compiled private_pub.js  (0ms)  (pid 6363)
+Compiled sessions.js  (1ms)  (pid 6363)
+Completed 200 OK in 481ms (Views: 480.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-22 20:23:26 +0530
+Served asset /application.css - 200 OK (14ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-22 20:23:26 +0530
+Served asset /chats.css - 200 OK (34ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:26 +0530
+Served asset /jquery.js - 200 OK (8ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-22 20:23:26 +0530
+Served asset /sessions.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:26 +0530
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:26 +0530
+Served asset /private_pub.js - 200 OK (7ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:26 +0530
+Served asset /chats.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:26 +0530
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:26 +0530
+Served asset /sessions.js - 200 OK (5ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-08-22 20:23:31 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wMGhS0KcOZEncbsIshXqAWQV/Nw1kN83+S/dTbNOG0A=", "username"=>"test", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 5ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-22 20:23:31 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-22 20:23:32 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-22 20:23:32 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:32 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-22 20:23:32 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:32 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:32 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:32 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:32 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:32 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+Served asset /chats.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-22 20:23:43 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-22 20:59:51 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (50.3ms)
+Completed 200 OK in 239ms (Views: 238.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+Served asset /application.css - 200 OK (134ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+Served asset /jquery_ujs.js - 200 OK (32ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+Served asset /chats.js - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+Served asset /jquery.js - 200 OK (13ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+Served asset /chats.css - 200 OK (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+Served asset /sessions.css - 200 OK (4ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+Served asset /private_pub.js - 200 OK (6ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+Served asset /sessions.js - 200 OK (15ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:53 +0530
+Served asset /application.js - 200 OK (3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-08-22 20:59:58 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "username"=>"test", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-22 20:59:58 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-22 20:59:58 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-22 20:59:58 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:59 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-22 20:59:59 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:59 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:59 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:59 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-22 20:59:59 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-22 21:00:38 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-22 21:00:38 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-22 21:00:39 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-22 21:00:39 +0530
+Served asset /chats.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-22 21:00:39 +0530
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-22 21:00:39 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-22 21:00:39 +0530
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-22 21:00:39 +0530
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-22 21:00:39 +0530
+Served asset /private_pub.js - 200 OK (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-22 21:00:39 +0530
+Served asset /chats.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-22 21:00:39 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-08-22 21:00:42 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "username"=>"gokul", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-22 21:00:42 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:00:48 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"test", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (65.5ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:01:06 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"welcome test", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (10.5ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:01:16 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "message"=>"i'm using faye", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (5.5ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:01:26 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"great! me too :-)", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.3ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:22:16 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "message"=>"@gokul is it working for you?", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (3.7ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-22 21:22:26 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:22:35 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"@test is it working for you?", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:22:42 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "message"=>"no", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (53.8ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:22:50 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"@test working?", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:23:09 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "message"=>"@gokul its working for me :-)", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (3.5ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:23:21 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "message"=>"@gokul yes", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.7ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:23:32 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"@test great man", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (3.7ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:23:42 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"@gokul great", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.4ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:23:54 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"@test: greate", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (3.8ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:24:05 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"@test hello", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.2ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:24:15 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"@test great", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.2ms)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:24:32 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "message"=>"@test some time not working", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:24:42 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "message"=>"@gokul no", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.8ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:26:43 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"@test go home", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (3.7ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:26:54 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cij79acsd9c/PK8azzw5cPue4opwVQCrVBuOvmdOtJ0=", "message"=>"@test home", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:27:02 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "message"=>"@test bye", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.6ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-22 21:27:11 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"znMpGNhoqJv8SE3nLtJq11J7DzIm81llbMrl23jKU2o=", "message"=>"@gokul bye", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (6.3ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-08-23 16:04:17 +0530
+Served asset /rails.png - 200 OK (110ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-23 16:04:22 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (55.1ms)
+Completed 200 OK in 258ms (Views: 257.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-23 16:04:22 +0530
+Served asset /application.css - 200 OK (60ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-23 16:04:23 +0530
+Served asset /chats.css - 200 OK (96ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-23 16:04:23 +0530
+Served asset /jquery.js - 200 OK (34ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-23 16:04:23 +0530
+Served asset /sessions.css - 200 OK (6ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-23 16:04:23 +0530
+Served asset /chats.js - 200 OK (3ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-23 16:04:23 +0530
+Served asset /private_pub.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-23 16:04:23 +0530
+Served asset /jquery_ujs.js - 200 OK (17ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-23 16:04:23 +0530
+Served asset /sessions.js - 200 OK (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-23 16:04:23 +0530
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-23 16:07:01 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:44 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-23 16:17:46 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+This daemon is still running at 2012-08-23 21:44:27 +0530.
+This daemon is still running at 2012-08-23 21:44:37 +0530.
+This daemon is still running at 2012-08-23 21:44:47 +0530.
+This daemon is still running at 2012-08-23 21:44:57 +0530.
+This daemon is still running at 2012-08-23 21:45:16 +0530.
+This daemon is still running at 2012-08-23 21:45:26 +0530.
+This daemon is still running at 2012-08-23 21:45:36 +0530.
+This daemon is still running at 2012-08-23 22:14:49 +0530.
+This daemon is still running at 2012-08-23 22:14:59 +0530.
+This daemon is still running at 2012-08-23 22:15:09 +0530.
+This daemon is still running at 2012-08-23 22:15:19 +0530.
+This daemon is still running at 2012-08-23 22:18:57 +0530.
+This daemon is still running at 2012-08-23 22:19:07 +0530.
+This daemon is still running at 2012-08-23 22:19:17 +0530.
+This daemon is still running at 2012-08-23 22:19:27 +0530.
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-24 12:43:49 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-24 12:43:50 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 203ms (Views: 202.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 12:43:51 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-24 12:43:51 +0530
+Served asset /chats.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 12:43:51 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 12:43:51 +0530
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-24 12:43:51 +0530
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-24 12:43:51 +0530
+Served asset /private_pub.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-24 12:43:51 +0530
+Served asset /chats.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-24 12:43:51 +0530
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 12:43:51 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-24 12:44:11 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:12 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xp0uk/mJ6bg8vMJyvnDIMyfLlU8HRFAZkP+9yxyBZ+U=", "username"=>"gokul", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:15 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-08-24 12:44:19 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySqekMBZeSXxYaYtc/kmNBDQvMF0zLrj+Q2hr/PPnlc=", "username"=>"test", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 12:44:20 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-24 16:36:57 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySqekMBZeSXxYaYtc/kmNBDQvMF0zLrj+Q2hr/PPnlc=", "message"=>"test", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (423.6ms)
+Completed 500 Internal Server Error in 1140ms
+
+ActionView::Template::Error (undefined method `broadcast' for #<#<Class:0x00000003385240>:0x000000033897f0>):
+    4: // Send the message
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3496276626188585889_27017740'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-08-24 16:36:59 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ySqekMBZeSXxYaYtc/kmNBDQvMF0zLrj+Q2hr/PPnlc=", "message"=>"test", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (48.0ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (undefined method `broadcast' for #<#<Class:0x00000003374df0>:0x00000003378d60>):
+    4: // Send the message
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3496276626188585889_27017740'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.1ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+Served asset /application.css - 200 OK (40ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+Served asset /chats.js - 200 OK (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+Served asset /jquery_ujs.js - 200 OK (9ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+Served asset /sessions.css - 200 OK (13ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+Served asset /chats.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+Served asset /jquery.js - 200 OK (12ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+Served asset /private_pub.js - 200 OK (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+Served asset /sessions.js - 200 OK (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-24 20:57:21 +0530
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-08-27 21:40:50 +0530
+Served asset /rails.png - 200 OK (37ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:41:14 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-27 21:41:16 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 252ms (Views: 249.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 21:41:16 +0530
+Served asset /application.css - 200 OK (125ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-27 21:41:16 +0530
+Served asset /private_pub.js - 200 OK (13ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-27 21:41:16 +0530
+Served asset /sessions.css - 200 OK (8ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-27 21:41:16 +0530
+Served asset /chats.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 21:41:16 +0530
+Served asset /jquery.js - 200 OK (43ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-27 21:41:16 +0530
+Served asset /chats.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 21:41:17 +0530
+Served asset /jquery_ujs.js - 200 OK (9ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-27 21:41:17 +0530
+Served asset /sessions.js - 200 OK (22ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 21:41:17 +0530
+Served asset /application.js - 200 OK (4ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-08-27 21:41:23 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eY8ZVDd/gSx2nfKnAfj/MnVhWM8fZ4V8IdHCYFp9tgI=", "username"=>"gokul", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:41:23 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (21.6ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (Connection refused - connect(2)):
+    16:     <p class="alert"> Welcome to the chat room <%= session[:username] %>! </p>
+    17:   </div>
+    18: 
+    19:   <% publish_to "/messages/private/gokul", "{ :username => 'gokul', :msg => 'hai' }" %>  
+    20:   <%= form_tag new_message_path, :remote => true do %>
+    21:     <%= text_field_tag :message %>
+    22:     <%= submit_tag "Send" %>
+  app/views/chats/room.html.erb:19:in `_app_views_chats_room_html_erb___3806553311628875168_19991760'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:42:11 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Connection refused - connect(2)):
+    16:     <p class="alert"> Welcome to the chat room <%= session[:username] %>! </p>
+    17:   </div>
+    18: 
+    19:   <% publish_to "/messages/private/murthy", "{ :username => 'gokul', :msg => 'hai' }" %>  
+    20:   <%= form_tag new_message_path, :remote => true do %>
+    21:     <%= text_field_tag :message %>
+    22:     <%= submit_tag "Send" %>
+  app/views/chats/room.html.erb:19:in `_app_views_chats_room_html_erb___3806553311628875168_20238140'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:42:23 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-27 21:42:23 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 21:42:23 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-27 21:42:23 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-27 21:42:23 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 21:42:23 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-27 21:42:24 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 21:42:24 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-27 21:42:24 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-27 21:42:24 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 21:42:24 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-08-27 21:42:27 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oCtOaL/J0Oymz7yroTdRMRb5BjA0zKMzxSE59AsNIcs=", "username"=>"murthy", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:42:27 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (Connection refused - connect(2)):
+    16:     <p class="alert"> Welcome to the chat room <%= session[:username] %>! </p>
+    17:   </div>
+    18: 
+    19:   <% publish_to "/messages/private/murthy", "{ :username => 'gokul', :msg => 'hai' }" %>  
+    20:   <%= form_tag new_message_path, :remote => true do %>
+    21:     <%= text_field_tag :message %>
+    22:     <%= submit_tag "Send" %>
+  app/views/chats/room.html.erb:19:in `_app_views_chats_room_html_erb___3806553311628875168_20238140'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:02 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:43:06 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:07 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:07 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:07 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:07 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:07 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:07 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:07 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:07 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:07 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+Served asset /chats.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:32 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:43:39 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:40 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:40 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:40 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:40 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-27 21:43:40 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:40 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:40 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:40 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-27 21:43:40 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:45:54 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (101.7ms)
+Completed 500 Internal Server Error in 112ms
+
+ActionView::Template::Error (undefined local variable or method `murthy' for #<#<Class:0x0000000409e5d0>:0x0000000409ac00>):
+    16:     <p class="alert"> Welcome to the chat room <%= session[:username] %>! </p>
+    17:   </div>
+    18: 
+    19:   <% @msg = { :username => murthy , :msg => hai } %>
+    20:   <% publish_to "/messages/private/murthy", @msg %>  
+    21:   <%= form_tag new_message_path, :remote => true do %>
+    22:     <%= text_field_tag :message %>
+  app/views/chats/room.html.erb:19:in `_app_views_chats_room_html_erb___3806553311628875168_33905600'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:16 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:20 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-27 21:46:22 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-28 20:15:32 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-28 20:15:34 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 242ms (Views: 240.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-28 20:15:34 +0530
+Served asset /application.css - 200 OK (42ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-28 20:15:35 +0530
+Served asset /chats.css - 200 OK (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-28 20:15:35 +0530
+Served asset /sessions.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-28 20:15:35 +0530
+Served asset /jquery_ujs.js - 200 OK (23ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-28 20:15:35 +0530
+Served asset /jquery.js - 200 OK (42ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-28 20:15:35 +0530
+Served asset /chats.js - 200 OK (8ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-28 20:15:35 +0530
+Served asset /private_pub.js - 200 OK (40ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-28 20:15:35 +0530
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-28 20:15:35 +0530
+Served asset /sessions.js - 200 OK (14ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-08-28 20:15:39 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"40wZVQPAEUy+CvthhmZj5kP5dIj9CvgPaiJatgZoi0I=", "username"=>"test", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-28 20:15:39 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (38.4ms)
+Completed 500 Internal Server Error in 110ms
+
+ActionView::Template::Error (Connection refused - connect(2)):
+    17:   </div>
+    18: 
+    19:   <% @msg = { :username => 'murthy' , :msg => 'hai' } %>
+    20:   <% publish_to "/messages/private/murthy", @msg %>  
+    21:   <%= form_tag new_message_path, :remote => true do %>
+    22:     <%= text_field_tag :message %>
+    23:     <%= submit_tag "Send" %>
+  app/views/chats/room.html.erb:20:in `_app_views_chats_room_html_erb__749694690931811000_24135900'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (50.4ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-08-28 20:16:08 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-10-10 13:49:01 +0530
+Served asset /rails.png - 200 OK (33ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-10 13:49:06 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-10-10 13:49:06 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (24.4ms)
+Compiled application.css  (7ms)  (pid 29062)
+Compiled people.css  (23ms)  (pid 29062)
+Compiled scaffolds.css  (44ms)  (pid 29062)
+Compiled application.js  (25ms)  (pid 29062)
+Compiled people.js  (189ms)  (pid 29062)
+Completed 200 OK in 825ms (Views: 824.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /application.css - 200 OK (34ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /chats.css - 200 OK (16ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /scaffolds.css - 200 OK (28ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /people.css - 200 OK (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /sessions.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /jquery.js - 200 OK (32ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /jquery_ujs.js - 200 OK (14ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /chats.js - 200 OK (8ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /people.js - 200 OK (15ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /private_pub.js - 200 OK (27ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:07 +0530
+Served asset /sessions.js - 200 OK (24ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:08 +0530
+Served asset /application.js - 200 OK (22ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-10-10 13:49:11 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "username"=>"test", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-10 13:49:11 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (84.3ms)
+Completed 200 OK in 238ms (Views: 237.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /people.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:12 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 13:49:23 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"hi from test user", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (61.7ms)
+Completed 500 Internal Server Error in 163ms
+
+ActionView::Template::Error (undefined method `broadcast' for #<#<Class:0x00000003948dd0>:0x00000002dcdeb0>):
+    4: // Send the message
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3981273300762699942_24012260'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-10 13:49:56 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /people.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /people.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-10 13:49:57 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-10-10 13:50:03 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m/Um7nVkDJS0d3Wji+mlxNuGVTlwyAxaS8VG/qXx88o=", "username"=>"gokul", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-10 13:50:03 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-10 13:50:03 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-10 13:50:03 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-10 13:50:03 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-10 13:50:03 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-10 13:50:03 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-10 13:50:03 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 13:50:14 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m/Um7nVkDJS0d3Wji+mlxNuGVTlwyAxaS8VG/qXx88o=", "message"=>"hi all users", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (64.9ms)
+Completed 500 Internal Server Error in 78ms
+
+ActionView::Template::Error (undefined method `broadcast' for #<#<Class:0x000000041fa320>:0x000000041fdea8>):
+    4: // Send the message
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3981273300762699942_24012260'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 13:50:26 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul hi", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (62.8ms)
+Completed 500 Internal Server Error in 76ms
+
+ActionView::Template::Error (undefined method `broadcast' for #<#<Class:0x000000040a0600>:0x00000004125828>):
+    4: // Send the message
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3981273300762699942_24012260'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 13:50:30 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul hi gokul", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (125.7ms)
+Completed 500 Internal Server Error in 139ms
+
+ActionView::Template::Error (undefined method `broadcast' for #<#<Class:0x00000003772fd8>:0x0000000377b200>):
+    4: // Send the message
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3981273300762699942_24012260'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 13:50:38 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul hi gokul", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (97.3ms)
+Completed 500 Internal Server Error in 109ms
+
+ActionView::Template::Error (undefined method `broadcast' for #<#<Class:0x000000042d0538>:0x000000042d4d90>):
+    4: // Send the message
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3981273300762699942_24012260'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 13:50:48 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul gokul", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (53.2ms)
+Completed 500 Internal Server Error in 65ms
+
+ActionView::Template::Error (undefined method `broadcast' for #<#<Class:0x000000042985c0>:0x000000042a44d8>):
+    4: // Send the message
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3981273300762699942_24012260'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (53.6ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:04:38 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul haiiii", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (2.3ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    5: <% publish_to @channel, @message do %>
+    6: 
+    7: <%# broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:8:in `block in _app_views_chats_new_message_js_erb___3981273300762699942_34622400'
+  app/views/chats/new_message.js.erb:5:in `_app_views_chats_new_message_js_erb___3981273300762699942_34622400'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:04:41 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul haiiii", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (1.3ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    5: <% publish_to @channel, @message do %>
+    6: 
+    7: <%# broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:8:in `block in _app_views_chats_new_message_js_erb___3981273300762699942_34622400'
+  app/views/chats/new_message.js.erb:5:in `_app_views_chats_new_message_js_erb___3981273300762699942_34622400'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /people.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-10 14:05:39 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:05:42 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul haiiii", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (2.6ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    3: 
+    4: // Send the message
+    5: <% publish_to @channel, @message do %>
+    6:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    7: <% end %>
+    8: $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:6:in `block in _app_views_chats_new_message_js_erb___3981273300762699942_32940860'
+  app/views/chats/new_message.js.erb:5:in `_app_views_chats_new_message_js_erb___3981273300762699942_32940860'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /people.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-10 14:06:44 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:06:46 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul haiiii", "commit"=>"Send"}
+ERROR: compiling _app_views_chats_new_message_js_erb___3981273300762699942_34573900 RAISED /home/cognizant/Projects/example_faye/app/views/chats/new_message.js.erb:13: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/cognizant/Projects/example_faye/app/views/chats/new_message.js.erb:15: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_chats_new_message_js_erb___3981273300762699942_34573900(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "chats/new_message";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('// Clear message input
+$(\'#message\').val(\'\');
+
+// Send the message
+'); publish_to @channel, @message do 
+@output_buffer.safe_concat('
+'); publish_to "/messages/new" do 
+@output_buffer.safe_concat('    $("#chat").append("');@output_buffer.append= ( escape_javascript render(@message) );@output_buffer.safe_concat('");
+');   end 
+@output_buffer.safe_concat('  $("#new_message")[0].reset();
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:268:in `block in retrieve_response_from_mimes'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/mime_responds.rb:195:in `respond_to'
+/home/cognizant/Projects/example_faye/app/controllers/chats_controller.rb:26:in `new_message'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__502404783740143300__process_action__3343986555066871398__callbacks'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `block in action'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.3.4/lib/rack/etag.rb:23:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.3.4/lib/rack/conditionalget.rb:35:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:195:in `context'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:190:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.3.4/lib/rack/sendfile.rb:101:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.3.4/lib/rack/methodoverride.rb:24:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.3.4/lib/rack/runtime.rb:17:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.3.4/lib/rack/lock.rb:15:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.3.4/lib/rack/handler/webrick.rb:59:in `service'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/cognizant/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Rendered chats/new_message.js.erb (1.9ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (/home/cognizant/Projects/example_faye/app/views/chats/new_message.js.erb:13: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/cognizant/Projects/example_faye/app/views/chats/new_message.js.erb:15: syntax error, unexpected $end, expecting keyword_end):
+    10:   $("#new_message")[0].reset();
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /people.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /people.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-10 14:07:13 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:07:15 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul haiiii", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (7.6ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% publish_to "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:8:in `block in _app_views_chats_new_message_js_erb___3981273300762699942_23167540'
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3981273300762699942_23167540'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-10 14:23:39 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (71.1ms)
+Completed 200 OK in 193ms (Views: 192.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /chats.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /people.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /chats.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /people.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /private_pub.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-10 14:23:41 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:23:45 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"test", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (11.5ms)
+Completed 500 Internal Server Error in 136ms
+
+ActionView::Template::Error (undefined method `formats' for nil:NilClass):
+    5: <% publish_to @channel, @message %>
+    6: 
+    7: <% broadcast "/messages/new" do %>
+    8:     $("#chat").append("<%= escape_javascript render(@message) %>");
+    9:   <% end %>
+    10:   $("#new_message")[0].reset();
+  app/views/chats/new_message.js.erb:8:in `block in _app_views_chats_new_message_js_erb___3719041042629176437_30104280'
+  app/helpers/application_helper.rb:3:in `broadcast'
+  app/views/chats/new_message.js.erb:7:in `_app_views_chats_new_message_js_erb___3719041042629176437_30104280'
+  app/controllers/chats_controller.rb:26:in `new_message'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /people.css - 200 OK (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /sessions.css - 200 OK (3ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /chats.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /chats.js - 200 OK (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /people.js - 200 OK (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /private_pub.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-10 14:30:40 +0530
+Served asset /application.js - 200 OK (2ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:30:46 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"test", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (5.8ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:30:55 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul hi", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.2ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:31:42 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul hello gokul", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.5ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:31:59 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgCedOPjE8qym7nS8/wr0uQSrzTwJOPrNIZ7MKBuYnw=", "message"=>"@gokul helooooooooooooooooooo", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.2ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:32:17 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m/Um7nVkDJS0d3Wji+mlxNuGVTlwyAxaS8VG/qXx88o=", "message"=>"@test hiiiiiiiiiiiiiiii", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (10.5ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-10 14:43:24 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m/Um7nVkDJS0d3Wji+mlxNuGVTlwyAxaS8VG/qXx88o=", "message"=>"hi", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (5.7ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-12 19:51:24 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-10-12 19:51:27 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 355ms (Views: 353.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /chats.css - 200 OK (9ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /people.css - 200 OK (132ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /scaffolds.css - 200 OK (8ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /sessions.css - 200 OK (23ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /jquery.js - 200 OK (36ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /people.js - 200 OK (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /jquery_ujs.js - 200 OK (20ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /chats.js - 200 OK (7ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /private_pub.js - 200 OK (21ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /sessions.js - 200 OK (16ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:28 +0530
+Served asset /application.js - 200 OK (18ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-10-12 19:51:30 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nVZwsqCBAd/cDfeb44mchw/WZ0dHco8g1q4CYIPIH4I=", "username"=>"test", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (42.3ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /people.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:31 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-12 19:51:37 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nVZwsqCBAd/cDfeb44mchw/WZ0dHco8g1q4CYIPIH4I=", "message"=>"hi", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (5.8ms)
+Completed 200 OK in 95ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-12 19:51:46 +0530
+  Processing by ChatsController#room as HTML
+Redirected to http://localhost:3001/login
+Completed 302 Found in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /chats.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /people.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /chats.js - 200 OK (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /private_pub.js - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /people.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-12 19:51:47 +0530
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-10-12 19:51:50 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rZYcCt7YP3Ulnz+MVf35NMMvTQ0hST46nW2N1GqVdFY=", "username"=>"gokul", "commit"=>"Enter"}
+Redirected to http://localhost:3001/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-12 19:51:50 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-12 19:51:55 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rZYcCt7YP3Ulnz+MVf35NMMvTQ0hST46nW2N1GqVdFY=", "message"=>"hi test", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.8ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /people.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:34 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /people.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-12 19:52:37 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-12 19:52:43 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rZYcCt7YP3Ulnz+MVf35NMMvTQ0hST46nW2N1GqVdFY=", "message"=>"hui", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.7ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-10-12 19:52:46 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nVZwsqCBAd/cDfeb44mchw/WZ0dHco8g1q4CYIPIH4I=", "message"=>"sdfasdf", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (5.2ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-11-16 13:41:49 +0530
+Served asset /rails.png - 200 OK (39ms)
+
+
+Started GET "/chat/" for 127.0.0.1 at 2012-11-16 13:41:55 +0530
+
+ActionController::RoutingError (No route matches [GET] "/chat"):
+  
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (54.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-11-16 13:42:19 +0530
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 229ms (Views: 228.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /application.css - 200 OK (141ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /scaffolds.css - 200 OK (19ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /people.css - 200 OK (12ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /chats.css - 200 OK (28ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /jquery_ujs.js - 200 OK (31ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /sessions.css - 200 OK (9ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /chats.js - 200 OK (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /jquery.js - 200 OK (15ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /people.js - 200 OK (23ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /private_pub.js - 200 OK (9ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /sessions.js - 200 OK (17ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 13:42:20 +0530
+Served asset /application.js - 200 OK (26ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-11-16 13:42:24 +0530
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rfiVhVE4+v98B5zMvCyvLjevDdxz14I4THR5scbMcvI=", "username"=>"test", "commit"=>"Enter"}
+Redirected to http://localhost:3000/chatroom
+Completed 302 Found in 2ms
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-11-16 13:42:24 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (45.9ms)
+Completed 500 Internal Server Error in 58ms
+
+ActionView::Template::Error (Connection refused - connect(2)):
+    17:   </div>
+    18: 
+    19:   <% @msg = { :username => 'murthy' , :msg => 'hai' } %>
+    20:   <% publish_to "/messages/private/murthy", @msg %>  
+    21:   <%= form_tag new_message_path, :remote => true do %>
+    22:     <%= text_field_tag :message %>
+    23:     <%= submit_tag "Send" %>
+  app/views/chats/room.html.erb:20:in `_app_views_chats_room_html_erb__3213050238959326304_23301360'
+
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (86.7ms)
+Rendered /home/cognizant/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (95.2ms)
+
+
+Started GET "/chatroom" for 127.0.0.1 at 2012-11-16 13:43:49 +0530
+  Processing by ChatsController#room as HTML
+Rendered chats/room.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.css?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /people.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.css?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /chats.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chats.js?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /chats.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/private_pub.js?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /private_pub.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/people.js?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /people.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 13:43:50 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-11-16 13:43:55 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rfiVhVE4+v98B5zMvCyvLjevDdxz14I4THR5scbMcvI=", "message"=>"hi", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (5.5ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/new_message" for 127.0.0.1 at 2012-11-16 13:44:03 +0530
+  Processing by ChatsController#new_message as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rfiVhVE4+v98B5zMvCyvLjevDdxz14I4THR5scbMcvI=", "message"=>"test", "commit"=>"Send"}
+Rendered chats/new_message.js.erb (4.8ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
